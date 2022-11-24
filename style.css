@@ -162,32 +162,34 @@
     background: #F4EFFE;
     border-bottom: 0.315652px solid #292929;
     overflow: hidden;
-    border-top-left-radius:  28.7148px;
+    border-top-left-radius: 28.7148px;
     border-top-right-radius: 28.7148px;
 
 }
 
-.nav_bar{
+.nav_bar {
     box-sizing: border-box;
-display: flex;
-flex-direction: row;
-justify-content:center ;
-align-items:center;
-padding: 15.7826px 31.5652px 9.46957px;
-gap: 50.72px;
-position: absolute;
-width: 545.45px;
-height: 37.83px;
-border-bottom: 0.315652px solid #784DC7;
-border-radius: 28.7148 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15.7826px 31.5652px 9.46957px;
+    gap: 50.72px;
+    position: absolute;
+    width: 545.45px;
+    height: 37.83px;
+    border-bottom: 0.315652px solid #784DC7;
 }
 
-.logo_card {
+
+.nav_bar img {
     transform: rotate(45deg);
+    margin-right: auto;
 }
 
-.logo_card span{
-    width: 19px;
+.nav_bar span {
+
+    width: 50px;
     height: 6px;
     font-family: 'Montserrat';
     font-style: italic;
@@ -198,11 +200,57 @@ border-radius: 28.7148 ;
     color: #292929;
 }
 
+.nbbutton {
+    align-content: center;
+    width: 45px;
+    height: 10px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 5.05044px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    border: 0.03px solid #784DC7;
+    color: #784DC7;
+    border-radius: 1px;
+}
+
+.nbbutton:hover {
+    color: #2a1c44;
+    transition-duration: 4ms;
+}
+
+span:hover {
+    color: #2a1c44;
+    transition-duration: 4ms;
+}
+
 .left_photo {
     position: absolute;
     left: -23%;
     top: 35px;
     transform: rotate(45deg);
+
+}
+
+.product {
+    position: absolute;
+    width: 222px;
+    height: 126px;
+    left: 185.63px;
+    top: 30%;
+
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.1305px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #925FF0;
+    opacity: 0.9;
+    transform: rotate(45);
 
 }
 
@@ -221,7 +269,7 @@ border-radius: 28.7148 ;
     width: 49.87px;
     height: 49.87px;
     left: 45%;
-    top: 300px;
+    top: 310px;
     transform: rotate(45deg);
 }
 
